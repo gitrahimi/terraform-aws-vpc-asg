@@ -4,7 +4,7 @@
 ## Create a module.tf  and put the codes 
 ```
 module "asg-vpc" {
-  source  = "gitrahimi/asg-vpc/aws"
+  source  = "gitrahimi/vpc-asg/aws"
   version = "1.5.0"
 
   region           = "us-east-1"
