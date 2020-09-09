@@ -5,7 +5,7 @@
 ```
 module "asg-vpc" {
   source  = "gitrahimi/vpc-asg/aws"
-  version = "1.6.0"
+  version = "1.0.5"
 
   region           = "us-east-1"
   key_name         = "asg-key-pair"                    #It will be created
